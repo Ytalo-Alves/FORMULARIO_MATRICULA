@@ -14,6 +14,14 @@
   --stroke-default: #D6D3D1;
   --stroke-hightLight: #F3541C;
   --stroke-error: #DC2626;
-
-
 } 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
