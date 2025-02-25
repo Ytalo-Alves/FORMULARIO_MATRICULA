@@ -25,14 +25,14 @@
 
 body {
   overflow: hidden;
-  background-color: var(--text-secondary);
+
   font: var(--text);
-  color: var(--stroke-default);
+  color: var(--text-secondary);
 }
 
 h1,
 h2 {
-  color: var(--surface-primary);
+  color: var(--text-primary);
 }
 
 img {
