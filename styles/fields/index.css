@@ -25,3 +25,16 @@ textarea:focus {
   outline: 0.25rem solid var(--surface-secondary);
   border: 0.125rem var(--stroke-highlight);
 }
+
+input[type="date"] {
+  position: relative;
+  &::-webkit-calendar-picker-indicator {
+    position: absolute;
+    background: url(../../assets/calendar-03.svg)center/contain;
+    right: 1rem;
+  }
+}
+
+select {
+  background: url(../../assets/arrow-down-01.svg)no-repeat calc(100% - 1rem);
+}
