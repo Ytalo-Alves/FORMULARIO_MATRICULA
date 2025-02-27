@@ -2,27 +2,26 @@
   display: grid;
   grid-template-columns: 51.25% 48.75%;
   height: 100vh;
+  overflow: hidden;
 
 }
 
 main {
   overflow: auto;
-  padding: 4rem;
-  display: flex;
-  justify-content: center;
+  padding: 4rem 4rem;
 
-  .main-container {
+  & .main-container {
     margin-left: auto;
   }
 
-  .back {
+  & .back {
     display: flex;
     align-items: center;
     gap: .5rem;
     margin-bottom: 1.5rem;
   }
 
-  h1 {
+  & h1 {
     font: 600 1.5rem/1.25 var(--font-family);
     margin-bottom: .5rem;
   }
